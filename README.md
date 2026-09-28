@@ -4,7 +4,9 @@ A neuro-imaging workstation that runs entirely in the browser. It loads real, de
 
 **Live demo: https://nathan1658.github.io/gyrus/**
 
-![3D glass-brain view of a right parietal meningioma with DTI tractography, beside axial, coronal and sagittal slices and the quantitative findings panel](docs/screenshot.png)
+[![3D glass-brain view of a right parietal meningioma with DTI tractography, beside axial, coronal and sagittal slices and the quantitative findings panel. Links to the demo video.](media/gyrus-demo-cover.jpg)](https://nathan1658.github.io/gyrus/media/gyrus-demo.mp4)
+
+▶ **[Watch the 55-second demo video](https://nathan1658.github.io/gyrus/media/gyrus-demo.mp4)**: 3D tractography, trajectory planning and fly-through, k-space acquisition, and the glioblastoma case.
 
 ## Features
 
@@ -70,6 +72,7 @@ cases/<id>/
   a.png … d.png         volumes packed as RGB slice mosaics (three 8-bit channels each)
   tracts.idx, .i16      streamline index and int16 coordinates (meningioma only)
 docs/                   screenshots
+media/                  demo video (gyrus-demo.mp4) and its cover image
 ```
 
 ## Disclaimer

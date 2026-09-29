@@ -270,7 +270,7 @@ export function buildAbout() {
   <li>In the browser: WebGL2 ray-marched rendering with octant cut-away, slice reformatting, trajectory risk evaluation over 3,200 candidate corridors, and the k-space simulator with its FFTs.</li></ul>
   <h3>Limits</h3>
   <p>This is a demonstration, not a medical device and not for clinical use. Diffusion data were not corrected for EPI distortion, atlas labels are approximate under mass effect, vessels are not segmented, and the written reads are drafts generated from the measurements.</p>
-  <p class="meta-line">Built end to end by Claude Opus 5.5 in one session: finding and fetching the data, registration, tractography, analysis, and this workstation.</p>`;
+  <p class="meta-line">Built end to end by Claude Opus 5.5: finding and fetching the data, registration, tractography, analysis, and this workstation.</p>`;
   $('#aboutClose').onclick = () => $('#about').hidden = true;
   $('#about').onclick = e => { if (e.target.id === 'about') $('#about').hidden = true; };
 }

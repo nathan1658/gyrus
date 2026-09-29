@@ -81,7 +81,7 @@ This is a technical demonstration. It is not a medical device and not for clinic
 
 ## Credits and licence
 
-Built end to end by Claude Opus 5.5: finding and fetching the data, registration, tractography, analysis, and the workstation itself.
+Built with Claude Opus 5.5.
 
 - Code: [MIT](LICENSE).
 - Meningioma data: Aerts H, Marinazzo D et al., *eNeuro* 2018 and *NeuroImage* 2020. OpenNeuro ds001226, doi:[10.18112/openneuro.ds001226.v5.0.1](https://doi.org/10.18112/openneuro.ds001226.v5.0.1). CC0.
